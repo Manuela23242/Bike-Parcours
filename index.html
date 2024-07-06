@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTB Bike Parcours</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen zu unserem MTB Bike Parcours</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#signs">Wichtige Zeichen</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Über unseren Parcours</h2>
+        <p>Unser Bike Parcours bietet spannende Strecken für Mountainbike-Enthusiasten jeden Levels. Kommen Sie und erleben Sie den Nervenkitzel auf unseren speziell angelegten Wegen. Benutzung auf eingene gefahr !</p>
+    </section>
+
+    <section id="info">
+        <h2>Parcours-Informationen</h2>
+        <ul>
+            <li>Emphelung ab : 6 Jahren</li>
+            <li>Streckenlänge ca: 500m</li>
+            <li>Schwierigkeitsgrade: Anfänger, Fortgeschritten, Profi</li>
+            <li>Öffnungszeiten: 24/7</li>
+            <li>Eintrittspreis: kostenlos</li>
+        </ul>
+    </section>
+
+    <section id="signs">
+        <h2>Wichtige Zeichen</h2>
+        <div class="signs">
+            <div class="sign">
+                <img src="vorsichtig.jpg" alt="Vorsichtig Zeichen">
+                <p>Vorsichtig = Bitte langsamer fahren</p>
+            </div>
+            <!-- Weitere Zeichen können hier hinzugefügt werden -->
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Galerie</h2>
+        <div class="gallery">
+            <img src="img1.jpg" alt="Bike Parcours Bild 1">
+            <img src="img2.jpg" alt="Bike Parcours Bild 2">
+            <img src="img3.jpg" alt="Bike Parcours Bild 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Senden</button>
+        </form>
+        <p id="response"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MTB Bike Parcours. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
