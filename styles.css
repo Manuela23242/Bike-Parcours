@@ -31,9 +31,25 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
+.container {
+    display: flex;
+}
+
+main {
+    flex: 3;
     padding: 20px;
     margin: 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.ad-container {
+    margin: 10px 0;
 }
 
 .gallery {
